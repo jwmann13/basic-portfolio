@@ -1,0 +1,42 @@
+header {
+    width: 100%;
+    padding: 20px;
+    background: #eeeeee;
+}
+
+#siteTitle {
+    font-size: 32px;
+}
+
+nav {
+    font-size: 20px;
+    top: 0px;
+    right: 0px;
+    float: left;
+    min-width: 280px;
+    max-width: 500px;
+    border: 2px solid #000000;
+}
+
+a {
+    margin-left: 10px;
+    padding: 2.5%;
+    line-height: 22px;
+    float: left;
+}
+
+p {
+    position: sticky;
+    width: 50%;
+    clear: left;
+}
+
+aside {
+    position: relative;
+    float: left;
+}
+
+#aboutPic {
+    max-width: 33.3%;
+    height: auto;
+}
