@@ -1,3 +1,7 @@
+body {
+    width: 100vw;
+    height: 100vw;
+}
 header {
     width: 100%;
     padding: 20px;
@@ -9,12 +13,11 @@ header {
 }
 
 nav {
+    margin-top: 0px;
+    margin-right: 5%;
     font-size: 20px;
-    top: 0px;
-    right: 0px;
-    float: left;
-    min-width: 280px;
-    max-width: 500px;
+    float: right;
+    min-width: 270px;
     border: 2px solid #000000;
 }
 
@@ -22,6 +25,10 @@ a {
     margin-left: 10px;
     padding: 2.5%;
     line-height: 22px;
+    float: left;
+}
+
+#aboutTitle {
     float: left;
 }
 
