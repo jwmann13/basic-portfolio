@@ -1,11 +1,23 @@
 body {
+    margin: 0;
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
 }
 header {
-    width: 100%;
-    padding: 20px;
+    margin: 0px 0px 0px 0px;
+    width: 96.5%;
+    height: 120px;
+    padding: 10px 25px 10px 25px;
     background: #eeeeee;
+    font-family: 'Georgia', Times, serif;
+}
+
+h1 {
+    float: left;
+    background-color: #4aaaa5;
+    width: 220px;
+    height: auto;
+    padding: 20px;
 }
 
 #siteTitle {
@@ -13,11 +25,10 @@ header {
 }
 
 nav {
-    margin-top: 0px;
-    margin-right: 5%;
-    font-size: 20px;
     float: right;
-    min-width: 270px;
+    font-size: 20px;
+    min-width: 280px;
+    margin-top: 50px;
     border: 2px solid #000000;
 }
 
@@ -39,6 +50,7 @@ p {
 }
 
 aside {
+    width: auto;
     position: relative;
     float: left;
 }
