@@ -6,11 +6,15 @@ body {
 
 header {
     margin: 0px 0px 0px 0px;
-    width: 96.5%;
+    width: 96.5vw;
     height: 120px;
     padding: 10px 25px 10px 25px;
     background: #eeeeee;
     font-family: 'Georgia', Times, serif;
+}
+
+#siteTitle {
+    font-size: 32px;
 }
 
 h1 {
@@ -21,11 +25,8 @@ h1 {
     padding: 20px;
 }
 
-#siteTitle {
-    font-size: 32px;
-}
-
 nav {
+    position: relative;
     float: right;
     font-size: 20px;
     min-width: 280px;
@@ -46,7 +47,6 @@ a {
 
 #aboutSection {
     width: 960px;
-    margin: 10px 25% 10px 25%;
 }
 
 p {
@@ -56,12 +56,18 @@ p {
 }
 
 aside {
-    width: auto;
+    padding: 0px;
+    margin: auto;
+    width: 33.3%;
     position: relative;
     float: left;
 }
 
 #aboutPic {
-    max-width: 33.3%;
+    max-width: 100%;
     height: auto;
+}
+
+footer {
+    text-align: center;
 }
