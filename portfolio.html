@@ -6,33 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jeffrey Mann | Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <h1>Jeffrey Mann</h1>
-        <nav>
-            <a href="index.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="portfolio.html">Portfolio</a>
-        </nav>
+        <section id="headerSection">
+            <h1 id="siteTitle">Jeffrey Mann</h1>
+            <nav id="siteNav">
+                <ul>
+                    <li id="indexNav"><a href="index.html">About</a></li>
+                    <li id="portfolioNav"><a href="portfolio.html">Portfolio</a></li>
+                    <li id="contactNav"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <br class="clear" />
+        </section>
     </header>
 
-    <section>
-        <h2>Portfolio</h2>
-        <article>
-            Item 1
-        </article>
-        <article>
-            Item 2
-        </article>
-        <article>
-            Item 3
-        </article>
-        <article>
-            Item 4
-        </article>
+    <section id="mainSection">
+        <h2 id="mainTitle">Portfolio</h2>
+        <ul class="portfolioEntries">
+            <a href="" class="portfolioLink">
+                <img src="images/lorem1.jpg" alt="Item1" class="portfolioEntryImg">
+                <p id="portfolioEntryTitle">Project</p>
+            </a>
+            <a href="" class="portfolioLink">
+                <img src="images/lorem2.jpg" alt="Item2" class="portfolioEntryImg">
+                <p id="portfolioEntryTitle">Project</p>
+            </a>
+            <a href="" class="portfolioLink">
+                <img src="images/lorem3.jpg" alt="Item3" class="portfolioEntryImg">
+                <p id="portfolioEntryTitle">Project</p>
+            </a>
+            <a href="" class="portfolioLink">
+                <img src="images/lorem4.jpg" alt="Item4" class="portfolioEntryImg">
+                <p id="portfolioEntryTitle">Project</p>
+            </a>
+            <br class="clear" />
+        </ul>
     </section>
+
+    <footer>
+        <p id="copyright">&#0169; Copyright 2019</p>
+        <!-- <ul id="infoNav">
+                <li><a href="https://mailto:jwmann22@gmail.com">jwmann22@gmail.com</a></li>
+                <li><a href="https://www.github.com/jwmann13">GitHub</a></li>
+                <li><a href="">Website </a></li>
+            </ul> -->
+        <br class="clear" />
+    </footer>
 </body>
 
 </html>
