@@ -4,6 +4,8 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/* Heading Styling */
+
 header {
     margin: 0px;
     width: 100%;
@@ -68,6 +70,8 @@ a {
     float: left;
 }
 
+/* Page Main Content Styling */
+
 #mainSection {
     width: 918px;
     padding: 20px;
@@ -87,8 +91,11 @@ a {
     width: 888px;
     height: auto;
     float: left;
-    margin: 0px 20px;
+    margin: 0px 20px 10px 20px;
+    clear: both;
 }
+
+/* About Page Content Styling */
 
 #aboutBody {
     line-height: 1.75;
@@ -106,6 +113,7 @@ a {
     margin: 20px;
 }
 
+/* Footer Styling */
 footer {
     color: #ffffff;
     border-top: 10px solid #4aaaa5;
@@ -130,6 +138,8 @@ footer {
     height: 0;
     width: 0;
 }
+
+/* Portfolio Page Styling */
 
 .portfolioLink {
     width: 260px;
@@ -157,6 +167,8 @@ footer {
     top: 60%;
     left: 0px;
 }
+
+/* Contact Page Styling */
 
 input {
     overflow: auto;
