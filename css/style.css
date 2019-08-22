@@ -17,9 +17,7 @@ header {
 
 section {
     margin: auto;
-    padding: 0px;
     width: 960px;
-    height: inherit;
 }
 
 #siteTitle {
@@ -31,7 +29,7 @@ section {
     color: #ffffff;
     background-color: #4aaaa5;
     width: auto;
-    height: 100%;
+    height: 40px;
     padding: 20px;
     font-size: 32px;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
@@ -40,21 +38,23 @@ section {
 #siteNav {
     position: relative;
     margin: auto;
+    padding: 20px;
     font-size: 20px;
     width: auto;
-    height: auto;
+    height: 40px;
     float: right;
 }
 
 ul {
-    margin-top: 20px;
+    margin: auto;
     width: auto;
     height: auto;
 }
 
 li {
+    margin-top: 10px;
     float: left;
-    padding: 3px 10px;
+    padding: 0px 10px;
 }
 
 #portfolioNav {
@@ -69,8 +69,9 @@ a {
 }
 
 #aboutSection {
-    padding: 10px;
-    margin: 50px auto;
+    width: 918px;
+    padding: 20px;
+    margin: 20px auto;
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
@@ -78,34 +79,27 @@ a {
 #aboutTitle {
     color: #4aaaa5;
     font-size: 30px;
-    border-bottom: 3px #777777;
+    border-bottom: 1px solid #777777;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    width: 100%;
+    width: 888px;
     height: auto;
     float: left;
-    margin: 10px;
-    padding: 0px 20px 0px 20px;
-}
-
-#aboutBody {
-    margin: 10px;
-    padding: 0px 20px 0px 20px;
-    line-height: 1.75;
+    margin: 0px 20px;
 }
 
 p {
-    float: left;
-    width: 50%;
+    line-height: 1.75;
+    margin: 10px;
+    float: none;
+    width: 888px;
     color: #777777;
-    word-wrap: normal;
 }
 
 #aboutPic {
     float: left;
-    margin-top: 0px;
-    margin: auto;
-    width: 40%;
+    width: 38%;
     height: auto;
+    margin: 20px;
 }
 
 footer {
@@ -125,4 +119,10 @@ footer {
 #copyright {
     color: #ffffff;
     margin: 20px auto;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    width: 0;
 }
