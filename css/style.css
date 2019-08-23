@@ -144,23 +144,17 @@ a {
 
 /* Contact Page Styling */
 
-
-input {
-    overflow-wrap: break-word;
-    margin: 0px 0px 0px 10px;
-    width: 90%;
-}
-
 label {
     color: #777777;
     clear: right;
-    padding: 10px;
+    padding: 20px;
 }
 
 .contactForm {
-    margin: 10px;
+    margin: 10px 20px;
     float: left;
     clear: both;
+    width: 95.5%;
 }
 
 .contactLineBreak {
@@ -172,12 +166,11 @@ label {
     overflow: scroll;
     height: 200px;
     resize: vertical;
-    box-sizing: border-box;
 }
 
 #submit {
     float: left;
-    margin: 10px;
+    margin: 10px 20px;
     width: 100px;
 }
 
