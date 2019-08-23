@@ -113,32 +113,6 @@ a {
     margin: 20px;
 }
 
-/* Footer Styling */
-footer {
-    color: #ffffff;
-    border-top: 10px solid #4aaaa5;
-    clear: both;
-    padding: 0px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    text-align: center;
-    background-color: #666666;
-}
-
-#copyright {
-    color: #ffffff;
-    margin: 20px auto;
-}
-
-.clear {
-    clear: both;
-    height: 0;
-    width: 0;
-}
-
 /* Portfolio Page Styling */
 
 .portfolioLink {
@@ -170,21 +144,66 @@ footer {
 
 /* Contact Page Styling */
 
+
 input {
-    overflow: auto;
-    margin: 0px 5%;
+    overflow-wrap: break-word;
+    margin: 0px 0px 0px 10px;
     width: 90%;
 }
 
-#formInfo {
+label {
+    color: #777777;
+    clear: right;
     padding: 10px;
 }
 
+.contactForm {
+    margin: 10px;
+    float: left;
+    clear: both;
+}
+
+.contactLineBreak {
+    clear: both;
+}
+
 #inputMsg {
-    resize: both;
+    word-wrap: normal;
+    overflow: scroll;
+    height: 200px;
+    resize: vertical;
+    box-sizing: border-box;
 }
 
 #submit {
+    float: left;
     margin: 10px;
     width: 100px;
+}
+
+/* Footer Styling */
+
+footer {
+    color: #ffffff;
+    border-top: 10px solid #4aaaa5;
+    clear: both;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: #666666;
+}
+
+#copyright {
+    color: #ffffff;
+    margin: 20px auto;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    width: 0;
 }

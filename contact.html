@@ -27,16 +27,21 @@
 
     <section id="mainSection">
         <h2 id="mainTitle">Contact</h2>
-        <form>
-            <p id="formInfo">Name:</p>
-            <input type="text" id="inputName" />
-            <p id="formInfo">Email:</p>
-            <input type="text" id="inputEmail" />
-            <p id="formInfo">Message:</p>
-            <input type="text" id="inputMsg" />
-            <input type="submit" id="submit" />
-        </form>
-        <br class="clear" />
+        
+        <label id="formLabel">Name:</label><br class="contactLineBreak" />
+        <input type="text" class="contactForm" id="inputName" placeholder="Your name..." />
+        <br class="contactLineBreak" />
+
+        <label id="formLabel">Email:</label><br class="contactLineBreak" />
+        <input type="text" class="contactForm" id="inputEmail" placeholder="Your email..." />
+        <br class="contactLineBreak" />
+
+        <label id="formLabel">Message:</label><br class="contactLineBreak" />
+        <input type="text" class="contactForm" id="inputMsg" placeholder="Your message..." />
+        <br class="contactLineBreak" />
+
+        <input type="submit" id="submit" />
+        <br class="clear"/>
     </section>
 
     <footer>
